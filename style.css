@@ -6,11 +6,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .orange-color {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -30,4 +34,25 @@ section {
     padding: 10px 40px;
     font-weight: 700;
     border-radius: 5px;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#Full-stack-Developer {
+    border-left: 7px solid tomato;
+}
+
+#Baby-web-Developer {
+    border-left: 7px solid blue;
+}
+
+footer {
+    text-align: center;
 }
